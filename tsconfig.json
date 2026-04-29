@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext", // sau CommonJS
+    "moduleResolution": "NodeNext",
+    "types": ["node"], // <--- ADAUGĂ ASTA
+    "exactOptionalPropertyTypes": false, // <--- ADAUGĂ/MODIFICĂ ASTA
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
